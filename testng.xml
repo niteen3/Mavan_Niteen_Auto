@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test verbose="10" preserve-order="true" name="C:/Users/91888/IdeaProjects/Mavan_Niteen_Auto/src/test/java">
+        <classes>
+
+            <class name="testng.PriorityExample"/>
+            <class name="testng.BasicOfTestng"/>
+            <class name="testng.PriorityExample"/>
+            <class name="testng.TestNGannotations"/>
+            <class name="testng.DependsOnGroupExample"/>
+
+        </classes>
+    </test>
+</suite>
