@@ -3,9 +3,10 @@ package testng;
 import org.testng.annotations.Test;
 
 public class PriorityExample {
-    @Test(priority=5)
+    @Test(priority=4)
     public void verifyCaseA(){
         System.out.println("Verify case A");
+		sysyem.out.println("Test repos");
     }
     @Test(priority=1)
     public void verifyCaseQ(){
