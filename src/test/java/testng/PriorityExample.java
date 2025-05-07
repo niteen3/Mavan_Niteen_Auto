@@ -6,7 +6,7 @@ public class PriorityExample {
     @Test(priority=4)
     public void verifyCaseA(){
         System.out.println("Verify case A");
-		sysyem.out.println("Test repos");
+		System.out.println("Test repos newly added");
     }
     @Test(priority=1)
     public void verifyCaseQ(){
